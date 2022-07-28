@@ -1,0 +1,104 @@
+body{
+    /* background-color: aquamarine; */
+     background-image: url("https://t4.ftcdn.net/jpg/04/97/80/99/360_F_497809944_FMo3DO6j7XSlb9rZKOlnqaaWoJhuZXBm.jpg"); 
+     /* background-repeat: no-repeat; 
+     background-position: center;
+     background-size: cover; */ 
+}
+.wrapper{
+    width: 65%;
+    margin: 100px auto;
+    border:2px solid grey;
+    border-radius: 10px;
+    padding-left: 33px;
+    background-color: rgb(232, 200, 234);
+    box-shadow: 5px 10px #888888;
+}
+.wrapper:hover{
+    width: 65%;
+    margin: 100px auto;
+    border:2px solid grey;
+    border-radius: 10px;
+    padding-left: 33px;
+    background-color: blanchedalmond;
+    box-shadow: 5px 10px #888888;
+}
+
+.w-100{
+ width: 100%;
+}
+
+.h3{
+    color: red;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 900;
+}
+
+#city{
+    padding: 10px 20px !important;
+    border-radius: 9px;
+    width:92%; 
+    text-align: center;
+
+}
+
+#search{
+    padding: 12px 36px;
+    border-radius: 9px;
+    background-color: red;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: medium;
+    margin:10px auto;
+    text-align: center;
+    box-shadow: none;
+    cursor: pointer;
+    font-style: oblique;
+
+}
+#search:hover{
+    padding: 12px 36px;
+    border-radius: 9px;
+    background-color:green;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: medium;
+    margin:10px auto;
+    text-align: center;
+    box-shadow: none;
+    cursor: pointer;
+    font-style: oblique;
+    
+}
+#result{
+    margin:20px auto;
+}
+
+#result>div{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color:blue;   
+    margin: 30px auto;
+    text-align: center;
+    font-size: larger;
+    /* font-style: italic; */
+
+}
+
+span{
+    font-family: sans-serif;
+    font-weight: 900;
+    color:red; 
+    margin:30px auto;
+    text-align: center;
+   
+}
+
+input{
+    color:black;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
